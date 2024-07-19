@@ -18,7 +18,7 @@ body {
 
 .encabezado {
     /* background-color: bisque; */
-    border-top: solid 20px #3511b8;
+    border-top: solid 20px #6d11b8;
     /* border-bottom: solid 1px #c1101a; */
     margin-bottom: 30px;
 }
@@ -28,21 +28,21 @@ nav li a {
     text-decoration: none;
     margin: 15px;
     color: gray;
-    border-left: 1px solid #3511b8;
-    border-right: 1px solid #3511b8;
+    border-left: 1px solid #8911b8;
+    border-right: 1px solid #8611b8;
     padding: 0 15px;
 }
 
 a:hover {
-    background-color: #3511b8;
+    background-color: #9111b8;
     color: #9ea4f0;
 }
 
 /* PRODUCTOS */
 
 .tituloProductos {
-    background-color: #3511b8;
-    color: #9ea4f0;
+    background-color: #7211b8;
+    color: #e19ef0;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
@@ -58,14 +58,14 @@ a:hover {
 
 
 .colorBtn {
-    background-color:#3511b8;
+    background-color:#9711b8;
     color: #9ea4f0;
     font-size: 18px;
 }
 
 .colorBtn:hover {
-    background-color:#3511b8;
-    color: #9ea4f0;
+    background-color:#9c11b8;
+    color: #ce9ef0;
 }
 
 
@@ -86,7 +86,7 @@ h1 {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #9ea4f0;
+    background-color: #d99ef0;
     border-radius: 5px;
 }
 
@@ -94,7 +94,7 @@ label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-    color: #333;
+    color: #000000;
 }
 
 .inputMessi {
@@ -109,8 +109,8 @@ label {
 .btnMios {
     width: 100%;
     padding: 10px;
-    background-color: #3511b8;
-    color: #9ea4f0;
+    background-color: #7811b8;
+    color: #ce9ef0;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -118,7 +118,7 @@ label {
 }
 
 .btnMios:hover {
-    background-color: #3511b8;
+    background-color: #9411b8;
 }
 
 i {
