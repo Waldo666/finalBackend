@@ -2,13 +2,15 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-
+background-color: #000000;
 }
 
 /*HEADER*/
 
 .tamLogo {
     width: 250px;
+    filter: drop-shadow(4px 4px 8px rgb(140, 88, 182));
+    
 }
 
 .fuentesNav {
@@ -47,8 +49,12 @@ a:hover {
     font-weight: bold;
     text-transform: uppercase;
     padding: 20px;
+    transition: background-color 1s, color 1s;
 }
-
+.tituloProductos:hover {
+    background-color: #9111b8;
+    color: #9ea4f0;
+}
 .tituloProductos h2 {
     font-size: 35px;
 }
