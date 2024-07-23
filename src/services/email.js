@@ -7,7 +7,7 @@ class EmailManager {
             port: 587,
             auth: {
                 user: "zero.waldo@gmail.com",
-                pass: "vwni ytfw ewwd ntlk"
+                pass: "kktw kqrr jvbu qhbx"
             }
         });
     }
