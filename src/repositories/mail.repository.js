@@ -6,7 +6,7 @@ class MailingRepository {
             service: 'gmail', 
             port: 587,
             auth: {
-                user: 'raysandrone@gmail.com',
+                user: 'zero.waldo@gmail.com',
                 pass: 'vwni ytfw ewwd ntlk'
             }
         });
@@ -15,7 +15,7 @@ class MailingRepository {
     async sendInactiveDeletionEmails(users) {
         const sendEmailPromises = users.map(user => {
             const mailOptions = {
-                from: 'raysandrone@gmail.com',
+                from: 'zero.waldo@gmail.com',
                 to: user.email,
                 subject: 'Cuenta Eliminada por Inactividad',
                 text: `Hola ${user.first_name}, tu cuenta ha sido eliminada por inactividad.`

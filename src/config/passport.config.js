@@ -9,7 +9,7 @@ const initializePassport = () => {
         jwtFromRequest: ExtractJwt.fromExtractors([cookieExtractor]),
         secretOrKey: "coderhouse"
     }, async (jwt_payload, done) => {
-        try {
+    try {
 
             const user = await UserModel.findById(jwt_payload.user._id);
             if (!user) {
